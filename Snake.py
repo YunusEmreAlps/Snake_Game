@@ -4,6 +4,8 @@ import turtle # Graphical package
 import random
 import time
 
+turtle.hideturtle()
+
 slp = 0.1 # sleep time
 score = 0
 high_score = 0
