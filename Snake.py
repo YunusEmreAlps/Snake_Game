@@ -59,8 +59,11 @@ def key():
     window.onkeypress(D, "Down")
     window.onkeypress(R, "Right")
     window.onkeypress(L, "Left")
+    window.onkeypress(U, "w")
+    window.onkeypress(D, "s")
+    window.onkeypress(R, "d")
+    window.onkeypress(L, "a")
     window.listen()
-
 # Food
 food = turtle.Turtle()
 food.speed(0)
