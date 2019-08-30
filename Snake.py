@@ -19,6 +19,7 @@ window.title("Snake")
 window.bgcolor("white") # bg : background
 window.setup(width=600,height=600)
 window.direction="white"
+window.tracer(0)
 
 # Snake Head
 head = turtle.Turtle()
