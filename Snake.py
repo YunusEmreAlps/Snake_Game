@@ -88,20 +88,8 @@ def eat():
 # Add Body
         new_part = turtle.Turtle()
         new_part.speed(0)
-        new_part.shape("circle")
-# Color
-        cl = (
-         "Medium Aquamarine","Aquamarine","Dark Green","Dark Olive Green",	 
-         "Dark Sea Green","Sea Green","Medium Sea Green","Light Sea Green",	 
-         "Pale Green","Spring Green","Lawn Green","Chartreuse","Medium Spring Green",	 
-         "Green Yellow","Lime Green","Yellow Green","Forest Green","Olive Drab",	 
-         "Dark Khaki","Khaki")
-        
-        a = random.choice(cl)
-        
-        head.color(a)
-        new_part.color(a)
-        
+        new_part.shape("square")
+        new_part.color("gray")
         new_part.penup()
         body.append(new_part)
         
